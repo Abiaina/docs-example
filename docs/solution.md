@@ -1,5 +1,5 @@
 ---
-title: solution
+title: Cadence Uber Eats Example Explation
 ---
 
 # Cadence Food Delivery Workflow Solution Walkthrough
