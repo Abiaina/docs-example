@@ -1,4 +1,2 @@
-title: My Cadence & Temporal Docs
-description: Developer-focused workflows and thoughts on resilient systems
-theme: null
-markdown: kramdown
+title: My Docs Site
+theme: minima

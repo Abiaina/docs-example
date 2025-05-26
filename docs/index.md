@@ -1,11 +1,15 @@
-<link rel="stylesheet" href="styles.css">
+---
+title: Welcome
+---
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="readme.html">README</a>
-  <a href="solution.html">Solution</a>
-  <a href="feedback.html">Feedback</a>
-</nav>
+# Welcome to My Project
+
+Navigate to:
+
+- [Home](home.md)
+- [README](readme.md)
+- [Solution](solution.md)
+- [Feedback](feedback.md)
 
 # Welcome
 

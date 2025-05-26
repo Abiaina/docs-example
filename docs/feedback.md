@@ -1,11 +1,10 @@
-<link rel="stylesheet" href="styles.css">
+---
+title: Feedback
+---
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="readme.html">README</a>
-  <a href="solution.html">Solution</a>
-  <a href="feedback.html">Feedback</a>
-</nav>
+# Feedback
+
+A place for user or contributor feedback and suggestions.
 
 # Building Your First Cadence Workflow: From Local Docker to Cadence Web
 
