@@ -1,15 +1,3 @@
----
-title: Welcome
----
-
-# Welcome to My Project
-
-## Overview
-
-This site explores building resilient, observable distributed systems using Cadence. If you're interested in long-running workflows, system failure recovery, and developer tooling, you're in the right place.
-
-## What I'm Working On
-
 I'm building workflows like `HandleEatsOrder` and `DeliverOrder` to model complex business logic across distributed systems.
 
 - **Cadence/Temporal**: Designing stateful, replayable workflows for asynchronous and event-driven systems.
