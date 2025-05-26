@@ -1,5 +1,6 @@
 ---
 title: Cadence Feedback
+layout: default
 ---
 
 A place for user or contributor feedback and suggestions.

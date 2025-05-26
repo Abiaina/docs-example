@@ -1,5 +1,6 @@
 ---
 title: About Me
+layout: default
 ---
 
 I value clear systems, thoughtful defaults, and shared mental models. I've worked on critical paths in production environments, led initiatives to improve deployment safety, and served as a subject matter expert in CI/CD and GitOps.
