@@ -134,6 +134,7 @@ The order goes through the following states:
 1. Order Received - Initial state when order is submitted
 2. Waiting for Restaurant - Waiting for accept/reject signal
 3. Preparing Order - If accepted, sleeps for 3 seconds
+
 4. Delivering Order - Child workflow starts, sleeps for 4 seconds
 5. Delivered - Final state if successful
 6. Rejected - Final state if restaurant rejects

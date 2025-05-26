@@ -247,22 +247,3 @@ In the Cadence UI (http://localhost:8088), you'll see:
 3. Activity executions
 4. Signal events
 5. Error events
-
-## Common Issues and Solutions
-
-1. **Workflow Not Starting**:
-
-   - Check worker connection
-   - Verify task list names
-   - Check domain registration
-
-2. **Signal Not Received**:
-
-   - Verify workflow ID
-   - Check signal name
-   - Ensure workflow is waiting for signal
-
-3. **Delivery Failures**:
-   - Check child workflow options
-   - Verify activity timeouts
-   - Review error handling

@@ -167,6 +167,7 @@ public void orderDelivered(String orderId) { ... }
 ## Gotchas
 
 - **Workflow timeout**: Cadence uses timeouts everywhere. Set generous timeouts when learning.
+
 - **Logging**: If logs don't show up, check where your activity is running. Log from the activity itself.
 - **Signal delay**: Cadence doesn't "check for signals" actively — signals are picked up when a workflow yields.
 - **No worker, no progress**: You need your worker to be actively polling or nothing will happen.
