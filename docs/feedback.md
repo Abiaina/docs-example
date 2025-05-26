@@ -1,8 +1,6 @@
 ---
-title: Feedback
+title: Cadence Feedback
 ---
-
-# Feedback
 
 A place for user or contributor feedback and suggestions.
 
