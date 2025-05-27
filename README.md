@@ -1,2 +1,3 @@
 # docs-example
-host docs site for repos example
+
+Example of a simple, clear, accessible docs repo using GitHub pages and actions.
