@@ -8,7 +8,7 @@ Learn about my opninons, how to create a simple Cadence workflow and build your 
 </video>
 
 <video controls width="100%" autoplay muted loop>
-  <source src="{{ '/docs/sample_vid.mp4' }}" type="video/mp4">
+  <source src="{{ '/assets/sample_vid.mp4' | relative_url }}" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
