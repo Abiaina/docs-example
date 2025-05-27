@@ -1,5 +1,5 @@
 ---
-title: Selam's Feedback
+title: Feedback
 ---
 
 A place for user or contributor feedback and suggestions.
