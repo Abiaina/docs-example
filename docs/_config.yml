@@ -1,22 +1,20 @@
 title: Cadence Teach Back
-remote_theme: ronv/colorie
+remote_theme: mmistakes/minimal-mistakes
 
+# Show navigation links in the header to these pages (must exist at root)
+header_pages:
+  - about.md
+  - feedback.md
+  - readme.md
+  - solution.md
+
+# Defaults for pages at root, use 'single' layout for simple pages
 defaults:
   - scope:
       path: ""
       type: "pages"
     values:
-      layout: default
+      layout: single
 
-navigation:
-  - title: About Me
-    url: /aboutme/
-  - title: Feedback
-    url: /feedback/
-  - title: README
-    url: /readme/
-  - title: Solution
-    url: /solution/
-
-plugins:
-  - jekyll-remote-theme
+# Optional: enable search in header
+search_enabled: true

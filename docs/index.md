@@ -1,6 +1,5 @@
 ---
 title: Cadence Feedback
-layouts: default
 ---
 
 I'm building workflows like `HandleEatsOrder` and `DeliverOrder` to model complex business logic across distributed systems.
