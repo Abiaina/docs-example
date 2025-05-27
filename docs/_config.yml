@@ -1,5 +1,5 @@
 title: Cadence Teach Back
-remote_theme: ajgarlag/lagrange
+remote_theme: pmarsceill/just-the-docs
 # # Show navigation links in the header to these pages (must exist at root)
 # header_pages:
 #   - about.md
