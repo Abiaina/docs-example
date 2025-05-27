@@ -1,20 +1,19 @@
 title: Cadence Teach Back
-remote_theme: mmistakes/minimal-mistakes@4.24.0
+remote_theme: ajgarlag/lagrange
+# # Show navigation links in the header to these pages (must exist at root)
+# header_pages:
+#   - about.md
+#   - feedback.md
+#   - readme.md
+#   - solution.md
 
-# Show navigation links in the header to these pages (must exist at root)
-header_pages:
-  - about.md
-  - feedback.md
-  - readme.md
-  - solution.md
+# # Defaults for pages at root, use 'single' layout for simple pages
+# defaults:
+#   - scope:
+#       path: ""
+#       type: "pages"
+#     values:
+#       layout: single
 
-# Defaults for pages at root, use 'single' layout for simple pages
-defaults:
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: single
-
-# Optional: enable search in header
-search_enabled: true
+# # Optional: enable search in header
+# search_enabled: true
