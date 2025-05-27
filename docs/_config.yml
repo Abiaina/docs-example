@@ -1,2 +1,5 @@
 title: Cadence Teach Back
-theme: colorie
+remote_theme: ronv/colorie
+
+plugins:
+  - jekyll-remote-theme
