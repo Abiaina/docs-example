@@ -1,5 +1,5 @@
 ---
-title: Cadence Uber Eats Example Readme
+title: Worked Example Readme
 ---
 
 This would be your project overview, similar to your GitHub README.

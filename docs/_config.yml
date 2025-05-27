@@ -1,14 +1,2 @@
 title: Cadence Teach Back
 remote_theme: pmarsceill/just-the-docs
-
-nav:
-  - title: About Me
-    url: /about/
-  - title: Feedback
-    url: /feedback/
-  - title: Readme
-    url: /readme/
-  - title: Solution
-    url: /solution/
-
-auto_nav: false

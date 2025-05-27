@@ -1,7 +1,3 @@
----
-title: Cadence Feedback
----
-
 I'm building workflows like `HandleEatsOrder` and `DeliverOrder` to model complex business logic across distributed systems.
 
 - **Cadence/Temporal**: Designing stateful, replayable workflows for asynchronous and event-driven systems.
