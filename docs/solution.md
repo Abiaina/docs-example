@@ -6,6 +6,8 @@ title: Solution
 
 ## Architecture Overview
 
+This needs to have to regenerate.
+
 The solution implements a food delivery system using Cadence workflows, with a parent-child workflow pattern.
 
 Here's how it works:
