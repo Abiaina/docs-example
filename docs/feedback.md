@@ -266,8 +266,6 @@ I hope this walkthrough helps demystify the process and gives you a solid base f
 
 Want the code? Ping me. Want a visual explainer? I'll make one.
 
-Happy queuing!
-
 # Feedback and Improvements
 
 ## Latest Changes

@@ -6,7 +6,9 @@ This would be your project overview, similar to your GitHub README.
 
 # Cadence Food Delivery Workflow System
 
-This project implements a food delivery workflow system using Uber's Cadence workflow engine. It demonstrates how to handle food orders, preparation, and delivery using Cadence's workflow and activity patterns.
+This project implements a food delivery workflow system using Uber's Cadence workflow engine.
+
+It demonstrates how to handle food orders, preparation, and delivery using Cadence's workflow and activity patterns.
 
 ## Workflow Steps
 

@@ -7,4 +7,6 @@ I'm building workflows like `HandleEatsOrder` and `DeliverOrder` to model comple
 
 ## Let's Connect
 
-I write about distributed systems, failure recovery, and developer experience. If you're working on similar challenges, let's connect!
+I write about distributed systems, failure recovery, and developer experience.
+
+If you're working on similar challenges, let's connect!
