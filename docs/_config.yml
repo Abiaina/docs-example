@@ -1,19 +1,14 @@
 title: Cadence Teach Back
 remote_theme: pmarsceill/just-the-docs
-# # Show navigation links in the header to these pages (must exist at root)
-# header_pages:
-#   - about.md
-#   - feedback.md
-#   - readme.md
-#   - solution.md
 
-# # Defaults for pages at root, use 'single' layout for simple pages
-# defaults:
-#   - scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       layout: single
+nav:
+  - title: About Me
+    url: /about/
+  - title: Feedback
+    url: /feedback/
+  - title: Readme
+    url: /readme/
+  - title: Solution
+    url: /solution/
 
-# # Optional: enable search in header
-# search_enabled: true
+auto_nav: false
