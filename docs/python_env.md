@@ -8,7 +8,8 @@ You can write and run Python code right in your browser using tools like Google 
 
 ### macOS
 
-1. Open Terminal.
+1. Open your terminal and check your python version: `python3 -V`. If this fails, install python with homebrew.
+
 2. If you don't have Homebrew installed, install it by running:
 
    ```bash
@@ -17,7 +18,7 @@ You can write and run Python code right in your browser using tools like Google 
 
    You can learn more about Homebrew at [brew.sh](https://brew.sh).
 
-3. Install Python 3:
+3. Install Python 3 with homebrew:
 
    ```bash
    brew install python
@@ -100,20 +101,6 @@ Once activated, your terminal prompt will change to show the environment name. N
 
 ---
 
-## Running Your Python Script with `__main__`
-
-Use this pattern in your scripts to run code only when the file is executed directly, not when imported:
-
-```python
-def main():
-    print("Hello, world!")
-
-if __name__ == "__main__":
-    main()
-```
-
----
-
 ## Installing Libraries with `pip3`
 
 Libraries are packages of reusable code written by others that save you time.
@@ -138,6 +125,8 @@ To keep track of your project's libraries and versions:
   pip3 freeze > requirements.txt
   ```
 
+> Note: This includes everything (even nested dependencies). It's best to record the libraries as you install them or use tools like `pip3 list --not-required` or `pipdeptree` to identify only top-level packages you explicitly added.
+
 - Later, reinstall all the libraries from that file:
 
   ```bash
@@ -150,10 +139,14 @@ To keep track of your project's libraries and versions:
 
 Use [PyPI](https://pypi.org/) to find Python libraries.
 
-Look for libraries that:
+When picking a library, you're trusting someone else's code to run in your project. Choose wisely.
 
-- Are updated regularly (at least once a year)
-- Have many downloads (millions is great)
+Here’s what to look for:
+
+- Recent updates — Has it been maintained in the last year?
+- Popularity — Look at PyPI download numbers or GitHub stars. (100k+ or millions are ideal)
+- Clear documentation — Good docs are a sign of a solid project.
+- Active community — Open issues, responses, and contributions can help you get unstuck.
 
 Use tools like [Snyk](https://snyk.io/) or `pip-audit` to check for known vulnerabilities.
 
@@ -178,6 +171,61 @@ To keep things simple and safe:
 
 ---
 
+### Running Your Code
+
+To run your Python script from the terminal or command prompt:
+
+```bash
+python3 your_script_name.py
+```
+
+Make sure your terminal is in the same folder as the .py file — or provide the full path to the script.
+
+#### What's **main** All About?
+
+When Python runs a file directly (like with `python3 script.py`), it gives that file a special name: `__main__`.
+
+The `if __name__ == "__main__"` block is Python’s way of saying: _"Only run this code if this file is being executed directly, not imported."_
+
+This is useful because:
+
+- It lets you reuse your functions in other scripts **without running everything automatically**.
+- It keeps your code **organized and testable**.
+- It avoids **accidental execution** of top-level code when the script is imported elsewhere.
+
+You’ll often see two patterns:
+
+##### Clear and scalable (recommended):
+
+```python
+def main():
+    run_task()
+
+def run_task():
+    print("Running task")
+
+if __name__ == "__main__":
+    main()
+```
+
+##### Also valid (especially for small scripts):
+
+```python
+def run_task():
+    print("Running task")
+
+if __name__ == "__main__":
+    run_task()
+```
+
+Use whichever makes your code easiest to understand. The goal is to make your script flexible — easy to run on its own or reuse in other files.
+
+##### What Happens Without `main()`?
+
+If you don’t use a `main()` function, Python still runs all top-level code (any code not inside a function) from top to bottom when the script is executed.
+
+---
+
 ## Wrapping Up
 
 Developing Python locally means:
@@ -190,4 +238,5 @@ Developing Python locally means:
 It takes a bit of setup but will make your Python development smoother and your projects easier to share.
 
 Thanks for reading and good luck with your python projects!
+
 Please comment any questions or share some of the projects you are working on.
